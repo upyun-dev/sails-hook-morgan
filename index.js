@@ -11,6 +11,11 @@ module.exports = function (sails) {
       }
       return cb();
     },
+    defaults: {
+      __configKey__: {
+        enabled: false
+      }
+    },
     routes: {
       before: {
         '*': function(req, res, next) {
