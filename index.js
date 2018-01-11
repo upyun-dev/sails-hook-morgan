@@ -7,13 +7,14 @@ module.exports = function (sails) {
   return {
     initialize: function(cb) {
       if (sails.config[this.configKey].enabled) {
-        logger = morgan('dev');
+        logger = morgan(sails.config[this.configKey].format);
       }
       return cb();
     },
     defaults: {
       __configKey__: {
-        enabled: false
+        enabled: false,
+        format: 'dev'
       }
     },
     routes: {
