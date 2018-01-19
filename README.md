@@ -2,7 +2,8 @@
 
 [Sails.js hook](https://next.sailsjs.com/documentation/concepts/extending-sails/hooks) for using [morgan](https://www.npmjs.com/package/morgan).
 
-[![NPM version][npm-image]][npm-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+
 ## Installation
 
 ```sh
@@ -23,3 +24,6 @@ Consult [morgan documentation](https://www.npmjs.com/package/morgan#morganformat
 
 [npm-url]: https://www.npmjs.com/package/sails-hook-morgan
 [npm-image]: https://img.shields.io/npm/v/sails-hook-morgan.svg
+
+[travis-url]: https://travis-ci.org/upyun-dev/sails-hook-morgan
+[travis-image]: https://img.shields.io/travis/upyun-dev/sails-hook-morgan/master.svg
