@@ -19,7 +19,7 @@ const Sails = require('sails').Sails;
              // Skip grunt (unless your hook uses it)
              "grunt": false
            },
-           log: {level: "error"}
+           log: { level: "error" }
          }, function (err, _sails) {
            if (err) return done(err);
            sails = _sails;
