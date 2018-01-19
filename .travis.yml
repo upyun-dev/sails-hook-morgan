@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "node"
+- node
+deploy:
+  provider: npm
+  email: shanda.lin+npm@upai.com
+  api_key:
+    secure: lWRcnwoaK+OjPR8Ny4JvNdlW73ws6FxGE6uvy3lJdQtv/NW9jYz7eRdB+ymzWdXd3X16lGD1ukk3v5ZVOKGYrqAoXLFE+jKK72dDNNPSW7hthHEKQXY5RI8VN4KR7YpEge0pYu00ssxdJSpz/CkdsbU8tzis1a6b0O+dyySWbNgbDJRngYJ68ujrHu+ioh/o1A8HR4CCi9t/N7GuWSt59Zrya5z6v5Cq1VHJsGQqi2CIi5mscUcrgPo2nRN27Ek6qaSmD3pHxevikVNxPWgVEe87/XWhe+xrArWRJrnNaaQLkfZSbZ50/YNnI7b1AFxHvR8LzCZapNg8Q6tpqaj3z1Ssl/Fp/cuFjQMhVfCY2KAo85uXtEpMolBh4yzELktjCmZg0GkX+nZuog9XHTh2USyF6d+OS4e2p5cdyp0KHsa+suo4b6wrKNa8tmJTgZ6ahAXRipXZBSZ/+Kx61VFCzthNCu6GkRqKmAOmWR2nqHBxWs0V5t23wEOgOzRVQ+TuKs7cYQirHiWboXWkMaSgJOmZj5qXV0fkBgKktz6nmMFu5NM1Xbyt/AqWaEsfFiKFJIR+8DFp7k4Yjd4sNYwNIzsZ/di0eyeiicfb6ncV8DKAZHKICteF5476ZZ3ovM4UsJsQiqFQFesurqatg172Yq9am4ti3gYevfjrNvNtnss=
+  on:
+    tags: true
+    repo: upyun-dev/sails-hook-morgan
