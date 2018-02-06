@@ -9,3 +9,5 @@ deploy:
   on:
     tags: true
     repo: upyun-dev/sails-hook-morgan
+after_success:
+- cat ./coverage/lcov.info | ./node_modules/.bin/coveralls
