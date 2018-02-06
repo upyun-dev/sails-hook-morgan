@@ -28,5 +28,5 @@ Consult [morgan documentation](https://www.npmjs.com/package/morgan#morganformat
 [travis-url]: https://travis-ci.org/upyun-dev/sails-hook-morgan
 [travis-image]: https://img.shields.io/travis/upyun-dev/sails-hook-morgan/master.svg
 
-[coveralls-image]: https://img.shields.io/coveralls/upyun-dev/sails-hook-morgan/master.svg
 [coveralls-url]: https://coveralls.io/github/upyun-dev/sails-hook-morgan?branch=master
+[coveralls-image]: https://img.shields.io/coveralls/upyun-dev/sails-hook-morgan/master.svg
