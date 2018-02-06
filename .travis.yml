@@ -1,6 +1,8 @@
 language: node_js
 node_js:
 - node
+script:
+- npm run test-cov
 deploy:
   provider: npm
   email: shanda.lin+npm@upai.com
