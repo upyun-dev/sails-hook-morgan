@@ -1,4 +1,5 @@
 const Sails = require('sails').Sails;
+const supertest = require('supertest');
 
  describe('Basic tests ::', function() {
 
@@ -41,6 +42,12 @@ const Sails = require('sails').Sails;
   // Test that Sails can lift with the hook in place
   it ('sails does not crash when lift', function() {
     return true;
+  });
+
+  it('sails does not crash when recieving a request', function (done) {
+    supertest(sails.hooks.http.app)
+      .get('/')
+      .expect(404, done);
   });
 
  });
