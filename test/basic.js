@@ -39,7 +39,7 @@ const Sails = require('sails').Sails;
   });
 
   // Test that Sails can lift with the hook in place
-  it ('sails does not crash', function() {
+  it ('sails does not crash when lift', function() {
     return true;
   });
 
