@@ -22,6 +22,18 @@ module.exports.morgan = {
 
 Consult [morgan documentation](https://www.npmjs.com/package/morgan#morganformat-options) for more `format` you can set, the default `format` is `"dev"`.
 
+### Disable in Production Environment
+
+`config/env/production.js`
+
+```javascript
+module.exports = {
+  hooks: {
+    morgan: false
+  }
+};
+```
+
 [npm-url]: https://www.npmjs.com/package/sails-hook-morgan
 [npm-image]: https://img.shields.io/npm/v/sails-hook-morgan.svg
 
