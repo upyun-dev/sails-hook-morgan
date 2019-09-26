@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha"
+    "test-cov": "nyc mocha"
   },
   "author": "Shander Lam",
   "license": "ISC",
@@ -17,10 +17,10 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.3",
-    "istanbul": "^0.4.5",
     "mocha": "^4.1.0",
-    "sails": "^1.1.0",
-    "supertest": "^3.0.0"
+    "nyc": "^14.1.1",
+    "sails": "^1.2.3",
+    "supertest": "^4.0.2"
   },
   "repository": {
     "type": "git",
